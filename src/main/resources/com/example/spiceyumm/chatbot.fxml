@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TextArea?>
+<GridPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.spiceyumm.ChatbotController">
+    <TextArea fx:id="chatArea" GridPane.columnIndex="0" GridPane.rowIndex="0" editable="false" wrapText="true" />
+    <TextField fx:id="userInputField" GridPane.columnIndex="0" GridPane.rowIndex="1" promptText="Ask me for a recipe..." />
+    <Button fx:id="sendButton" GridPane.columnIndex="1" GridPane.rowIndex="1" text="Send" onAction="#handleSendMessage" />
+</GridPane>

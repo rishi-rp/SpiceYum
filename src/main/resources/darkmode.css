@@ -1,0 +1,33 @@
+/* darkmode.css */
+
+.root {
+    -fx-background-color: #121212;
+    -fx-text-fill: #FFFFFF;
+}
+
+/* Style for buttons */
+.button {
+    -fx-background-color: #1E1E1E;
+    -fx-text-fill: #FFFFFF;
+    -fx-border-color: #333333;
+    -fx-border-width: 1px;
+}
+
+/* Style for labels */
+.label {
+    -fx-text-fill: #FFFFFF;
+}
+
+/* Style for text fields */
+.text-field {
+    -fx-background-color: #1E1E1E;
+    -fx-text-fill: #FFFFFF;
+    -fx-prompt-text-fill: #BBBBBB;
+}
+
+/* Style for other controls like ComboBox, ListView etc */
+.combo-box, .list-view {
+    -fx-background-color: #1E1E1E;
+    -fx-control-inner-background: #1E1E1E;
+    -fx-text-fill: #FFFFFF;
+}

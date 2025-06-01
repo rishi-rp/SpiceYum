@@ -1,0 +1,21 @@
+#chatArea {
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-background-color: #f2f2f2;
+    -fx-text-fill: #333;
+    -fx-padding: 10px;
+}
+
+#userInputField {
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+}
+
+#sendButton {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+}

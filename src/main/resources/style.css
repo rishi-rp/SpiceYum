@@ -1,0 +1,83 @@
+/* General Styling */
+.main-layout {
+    -fx-background-color: #ffffff;
+}
+
+/* Top Picks Section */
+.top-picks-section {
+    -fx-padding: 20px;
+    -fx-alignment: center;
+}
+
+.top-picks-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+}
+
+.recipe-list {
+    -fx-background-color: transparent;
+    -fx-border-color: none;
+}
+
+.recipe-item {
+    -fx-padding: 10px;
+    -fx-spacing: 10px;
+    -fx-background-color: #f9f9f9;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 2);
+}
+
+.recipe-name {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333333;
+}
+
+.fav-button, .save-button {
+    -fx-background-color: transparent;
+    -fx-font-size: 16px;
+}
+
+/* Search Box */
+.search-box {
+    -fx-spacing: 5px;
+}
+
+.search-field {
+    -fx-pref-width: 200px;
+    -fx-padding: 5px;
+    -fx-background-color: #eeeeee;
+    -fx-border-radius: 5px;
+}
+
+.search-button {
+    -fx-background-color: #ff9900;
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+}
+
+/* Navigation Bar */
+.nav-bar {
+    -fx-background-color: #ffffff;
+    -fx-padding: 10px;
+    -fx-border-width: 1px 0 0 0;
+    -fx-border-color: #cccccc;
+}
+
+.nav-button {
+    -fx-background-color: transparent;
+    -fx-font-size: 20px;
+}
+.sidebarMenu {
+    -fx-background-color: white;
+}
+.sidebar-button {
+    -fx-background-color: #555;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 14px;
+    -fx-border-radius: 5px;
+}
+.sidebar-button:hover {
+    -fx-background-color: #777;
+}
